@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de formulário</title>
+</head>
+<body>
+    <form action="cadastro.php"method"post">
+        <p>nome<input type="text"name</p>
+        <p>idade<input type="number"idade </p>
+        <p>genero:
+            <input type="radio"name"genero"value"masculino"</p>
+            <input type="radio"name "genero" value="feminino"</p>
+        <p>interesses:
+            <input type="checkbox""name""interesses"value "tecnologia">tecnologia
+            <input type=""checkbox" name"interesses"value"esporte">esporte
+            <input type="checkbox"name"interesses"value "viagens">viagens
+        </p>
+        <p>mensagens:<textarea name=""mensagens"></textarea></p>
+        <p><input type "submit"value "enviar"></p>
+    </form>
+        </body>
+</html>
